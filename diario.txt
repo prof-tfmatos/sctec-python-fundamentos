@@ -1,1 +1,7 @@
-Meu querido diário: escrever código na mão é divertido, mas doloroso. 
+Dia1 - Meu querido diário: escrever código na mão é divertido, mas doloroso. 
+Dia2 - Estou tentando me acostumar ao VS Code. É uma IDE fenomenal, mas não estava acostumado a ver tanta informação ao mesmo tempo. 
+Dia3 - A utilização do terminal do linux integrada ao repo do GitHub está funcionando perfeitamente. 
+Dia4 - Aprendendo a manipular arquivos com o Python. Funções open com argumentos r, w & a 
+Dia5 - Seria interessante expandir esse código com um input no terminal para digitar a frase do dia. 
+Dia4 - Aprendendo a manipular arquivos com o Python. Função open com argumentos r, w & a 
+Dia5 - Seria interessante expandir esse código com um input no terminal para digitar a frase do dia. 
