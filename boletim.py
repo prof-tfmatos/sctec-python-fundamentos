@@ -7,3 +7,5 @@ with open("notas.csv", newline="", encoding="utf-8") as f:
             situacao = "Aprovado"
         else:
             situacao = "Reprovado"
+        lista.append({"nome": aluno["nome"], "media": media, "situacao":situacao})
+
