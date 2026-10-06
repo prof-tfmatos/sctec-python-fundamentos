@@ -9,3 +9,7 @@ with open("notas.csv", newline="", encoding="utf-8") as f:
             situacao = "Reprovado"
         lista.append({"nome": aluno["nome"], "media": media, "situacao":situacao})
 
+with open("resultado.csv", "w", newline="", encoding="utf-8") as f:
+    escritor = csv.DictWriter(f, fieldnames=["nome", "media", "situacao"])
+    escritor.writeheader()
+    escritor.writerows(lista)
