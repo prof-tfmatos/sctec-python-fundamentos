@@ -22,6 +22,5 @@ nomes = {
 print("Dia da semana em que você nasceu:", nomes[nascimento.weekday()])
 natal = date(hoje.year, 12, 25)
 if natal < hoje:
-    natal = date(hoje.year, 12, 25)
+    natal = date(hoje.year + 1, 12, 25)
 print("Faltam", (natal - hoje).days, "dias para o próximo Natal.")
-ls
